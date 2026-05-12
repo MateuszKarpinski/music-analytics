@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / config
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Data files (na razie)
+*.csv
+*.json
+data/
+
+# Personal notes (private learning journal)
+notes/
+
+# Local data exports
+exports/
+*.parquet
+*.sqlite
+*.db
+
+# Jupyter (na przyszłość)
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest / coverage (na przyszłość)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy / linting (na przyszłość)
+.mypy_cache/
+.ruff_cache/
